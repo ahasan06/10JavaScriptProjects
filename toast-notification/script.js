@@ -32,11 +32,11 @@ function getRandomColor(notify){
 function getRandoemText(){
     const texts = [
         "Learn, Grow, Succeed",
-        "Dream, Believe, Achieve",
-        "Create, Explore, Discover",
+        "Thanks For subscribe!",
+        "Eat, Sleep, Code,Repeate",
         "Inspire, Motivate, Empower",
-        "Laugh, Love, Live",
-        "Imagine, Innovate, Inspire"
+        "Js, is, Awesome",
+        "Word, Hard, Inspire"
     ];
     
     const randomIndex = Math.floor(Math.random() * texts.length);
