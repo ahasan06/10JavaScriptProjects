@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-weight: 400;
+    letter-spacing: normal;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+button i{
+    font-size: 25px;
+    color: white;
+}
+button{
+    background: #000000;
+    position: fixed;
+    top: 20px;
+    right: 35px;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    z-index: 999;
+    border: none;
+
+}
+nav{
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+}
+nav.active{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  
+}
+.btnac{
+    background: white;
+    outline: none;
+    border: none;
+    
+}
+.btnac i{
+    color: black;
+    
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 50px;
+}nav li{
+    padding: 1rem 0;
+   
+}nav a{
+    color: white;
+    text-decoration: none;
+}
