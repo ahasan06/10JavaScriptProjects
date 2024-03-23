@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+      
+ <div id="copySuccessMessage" class="toast ">Copy success!</div>
+
+        <h1>Advance Password Generator</h1>
+        
+        <div class="user_details">
+            <div class="name">
+                <h4>Input Your Surname</h4>
+                <div class="inputBox">
+                    <input type="text" id="nameBox">
+                </div>
+
+            </div>
+            <div class="PrefDigit">
+                <h4>Input 3 Preferable Digit</h4>
+                <div class="inputBox">
+                    <input type="text" id="digitBox">
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="inputBox">
+            <input type="text" id="passBox" class="passBox">
+            <button type="button" id="copy" class="copy">Copy</button>
+        </div>
+
+        <input type="range" min="1" max="30" value="8" id="inputSlider">
+        <div class="row">
+            <p>Password Length</p>
+            <span id="sliderValue">4</span>
+        </div>
+
+        <div class="title">
+            <h2>characters Used</h2>
+        </div>
+        <div class="character">
+
+            <div class="capital_letters">
+                <input type="checkbox" id="capital_letter">ABC
+            </div>
+            <div class="small_letters">
+                <input type="checkbox" id="small_letter">abc
+            </div>
+            <div class="numbers">
+                <input type="checkbox" id="number">123
+            </div>
+            <div class="symbols">
+                <input type="checkbox" id="symbol">#$&
+            </div>
+        </div>
+
+        <div class="generator">
+            <button id="Passgenerator">generate Password</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
