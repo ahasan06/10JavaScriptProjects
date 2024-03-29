@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.music-player {
+    background: #ffe0e5;
+    width: 400px;
+    height: fit-content;
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.music-player h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #333;
+    margin-top: 20px;
+
+}
+
+.music-player p {
+    font-size: 14px;
+    color: #333;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+
+    line-height: 40px;
+    background: #fff;
+    color: #f53192;
+    -webkit-box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+    box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+}
+
+.song-img {
+    width: 220px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    border: 8px solid #fff;
+
+    -webkit-box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+    box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+}
+
+#progress {
+    -webkit-appearance: none;
+    height: 6px;
+    width: 100%;
+    background: #f53192;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+    cursor: pointer;
+    margin: 40px 0;
+
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #881a51;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    border: 8px solid #fff;
+
+    -webkit-box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+    box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+}
+
+.controls div {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #f53192;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+
+    -webkit-box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+    box-shadow: 3px 4px 11px -3px rgba(0, 0, 0, 0.67);
+
+    cursor: pointer;
+
+}
+
+.controls div:nth-child(2) {
+    transform:scale(1.5) ;
+    -webkit-transform:scale(1.5) ;
+    -moz-transform:scale(1.5) ;
+    -ms-transform:scale(1.5) ;
+    -o-transform:scale(1.5) ;
+
+    background: #f53192;
+    color: white;
+}
