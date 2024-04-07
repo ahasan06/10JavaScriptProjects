@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#grandparent {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+#parent {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+#child {
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+#form {
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+button {
+    background-color: lightgray;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
