@@ -14,5 +14,7 @@ function QuestionsMarks(str) {
 }
    
 
+
+
 let res = QuestionsMarks("acc?7??sss?3rr1??????5");
 console.log(res);

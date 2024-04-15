@@ -17,6 +17,5 @@ function LongestWord(sen) {
     return longestWord; 
 }
 
-console.log(LongestWord("Hello@!! world123 567")); // Output: 'world123'
-console.log(LongestWord("The quick brown fox jumps over the lazy dog")); // Output: 'quick'
-console.log(LongestWord("A picture is worth a thousand words")); // Output: 'thousand'
+
+console.log(LongestWord("The Eshita Bangladesh country")); 
